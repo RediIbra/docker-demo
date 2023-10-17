@@ -2,6 +2,8 @@
 
 Using docker to create containers with node versions
 
+<b> You can use these commands in this project to learn Docker by yourself too. </b>
+
 docker images ->get all the imagines
 /docker ps -a ->get all containers (running and not running)
 
