@@ -19,7 +19,7 @@ Using docker to create containers with node versions
 
 //VOLUMES <br>
 -docker run --name myapp_c_nodemon -p 4000:4000 --rm myapp:nodemon => CREATE a running container -p stands for maping the port and --rm remove container after we stop it <br>
--docker run --name myapp_c_nodemon -p 4000:4000 --rm -v C:\Users\r.ibra\Desktop\docker-crash-course-lesson-5\api:/app -v /app/node_modules myapp:nodemon => RUN changes in real time without node modules <br>
+-docker run --name myapp_c_nodemon -p 4000:4000 --rm -v C:\Users\r.ibra\Desktop\docker-demo\api:/app -v /app/node_modules myapp:nodemon => RUN changes in real time without node modules <br>
 
 //DOCKER-COMPOSE <br>
 -docker-compose up =>Run the docker-compose.yaml file we created and create image container and volumes <br>
